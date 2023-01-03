@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    
+
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="semantic-tag.html">Semantic Tag</a></li>
+        <li><a href="audio-video.html">Audio Video</a></li>
+    </ul>
+</nav>    
+<body>
+    <h2>Welcome To My Food Valey</h2>
+   <form >
+    <label for="name">Your Name
+        <input id="name" type="text" placeholder="Your Name">
+
+    </label>
+    <label for="name">Your Email
+        <input id="email" type="email" placeholder="Your Email">
+
+    </label>
+    <label for="Phone">Your Phone Number
+        <input id="phone" type="phone" placeholder="Your Phone Number">
+
+    </label>
+    <fieldset>
+        <legend> Pick Any One Food</legend>
+        <label for="Rice">
+            <input type="radio" name="Food" id="Rice">Rice
+        </label>
+        <label for="Meat">
+            <input type="radio" name="Food" id="Meat">Meat
+        </label>
+        <label for="Drink">
+            <input type="radio" name="Food" id="Drink">Drink
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Pick One Or More Vorta </legend>
+        <label for="Alu">
+            <input type="checkbox" name="Vorta" id="Alu"> Alu
+        </label>
+        <label for="Dal">
+            <input type="checkbox" name="Vorta" id="Dal">Dal
+        </label>
+        <label for="Begun">
+            <input type="checkbox" name="Vorta" id="Begun">Begun
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+   </form>
+</body>
+</html>
